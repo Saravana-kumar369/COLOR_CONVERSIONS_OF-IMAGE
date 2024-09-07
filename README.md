@@ -52,7 +52,42 @@ o	Flip the original image vertically and display it.
 o	Save the final modified image to your local directory.
 
 
-##### Program:
+### Program:
+### i)Read and Display an Image
+
+<br>
+<br>
+
+### ii)Draw Shapes and Add Text
+
+<br>
+<br>
+
+### iii)Image Color Conversion
+
+<br>
+<br>
+
+### iv)Access and Manipulate Image Pixels
+<br>
+<br>
+
+### v)Image Resizing
+<br>
+<br>
+
+### vi)Image Cropping
+<br>
+<br>
+
+### vii)Image Flipping
+<br>
+<br>
+
+### viii)Write and Save the Modified Image
+<br>
+<br>
+
 ### Developed By:
 ### Register Number: 
 
