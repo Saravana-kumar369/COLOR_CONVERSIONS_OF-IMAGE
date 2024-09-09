@@ -57,7 +57,8 @@ o	Save the final modified image to your local directory.
 ### Register Number: 212222230133
 ### i)Read and Display an Image
 ```
-import cv2 img1=cv2.imread("me.jpg")
+import cv2
+img1=cv2.imread("me.jpg")
 if img1 is None:
     print("Error: Image not loaded.")
 else:
@@ -115,8 +116,10 @@ cv2.destroyAllWindows()
 ```
 img2 = cv2.resize(img1,(400,300)) 
 cv2.imshow('Original Image',img2)
-hsv2= cv2.cvtColor(img2,cv2.COLOR_RBG2HSV) cv2.imshow('RGB2HSV',hsv2)
-gray2= cv2.cvtColor(img2,cv2.COLOR_RGB2GRAY) cv2.imshow('RGB2GRAY',gray2)
+hsv2= cv2.cvtColor(img2,cv2.COLOR_RBG2HSV)
+cv2.imshow('RGB2HSV',hsv2)
+gray2= cv2.cvtColor(img2,cv2.COLOR_RGB2GRAY)
+cv2.imshow('RGB2GRAY',gray2)
 
 cv2.waitKey(0) 
 cv2.destroyAllWindows() 
